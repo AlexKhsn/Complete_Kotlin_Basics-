@@ -256,7 +256,7 @@ fun main(args: Array<String>) {
     val userAge: Int? = readLine()?.toIntOrNull()
 
     println("Введи зарплату: ")
-    val salary: Double? = readLine()?.toDoubleOrNull()
+    val salary: Double? = readlnOrNull()?.toDoubleOrNull()
 
     val nameLength = userName?.length
     val ageCategory = when (userAge) {
