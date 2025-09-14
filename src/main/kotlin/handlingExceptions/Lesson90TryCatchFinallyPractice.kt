@@ -1,6 +1,6 @@
 package handlingExceptions
 
-/**
+/*
 fun main() {
  try {
  println("Введи число: ")
@@ -12,9 +12,9 @@ fun main() {
  e.printStackTrace()
  }
 }
- */
 
-/**
+
+
 fun main() {
  println("Сколько ты пробежал?")
 

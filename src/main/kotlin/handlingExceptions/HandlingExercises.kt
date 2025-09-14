@@ -1,7 +1,8 @@
 package handlingExceptions
 
 //  Безопасный калькулятор
-/**
+
+/*
 fun main() {
  println("Введи первое число: ")
  val num1: Double? = readLine()?.toDoubleOrNull()
@@ -24,7 +25,8 @@ fun main() {
 */
 
 //  Анализатор возраста
-/**
+
+/*
 fun main() {
  println("Введи возраст: ")
  val inputAge = readLine()
@@ -51,11 +53,12 @@ fun main() {
  println("Анализ завершён")
  }
 }
+
 */
 
 //  Обработчик строки
 
-/**
+/*
 fun main() {
  println("Введи любой текст: ")
  val inputText = readLine()
@@ -85,7 +88,7 @@ fun main() {
 
 //  Проверка пароля
 
-/**
+/*
 fun main() {
  println("Введи пароль: ")
  val inputPassword = readLine()
