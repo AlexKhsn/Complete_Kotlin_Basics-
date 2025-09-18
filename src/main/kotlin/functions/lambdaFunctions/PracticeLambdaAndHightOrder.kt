@@ -10,10 +10,10 @@ fun main() {
 
     //  Exercise 2
 
-    val clients = mutableListOf("Alex", "Bob", "John", "Tim")
-    println(clients)
-    val messages = personalized(clients) { name: String -> "Hello, $name. How are you?" }
-    println(messages)
+    val names = listOf("Alex", "Bob", "Steve", "Anna")
+    val newNames = personalized(names) { name: String -> "Hello, $name! How are you?" }
+    println(names)
+    println(newNames)
 
     //  Exercise 3
 
@@ -62,10 +62,12 @@ fun update(numbers: MutableList<Int>, divide: (Int) -> Int): MutableList<Int> {
 
 //  Exercise 2 Function
 
-fun personalized(names: MutableList<String>, message: (String) -> String): MutableList<String> {
-    val messages = mutableListOf<String>()
-    for (name in names) messages.add(message(name))
-    return messages
+fun personalized(clients: List<String>, message: (String) -> String): List<String> {
+    val result = mutableListOf<String>()
+    for (client in clients) {
+        result.add(message(client))
+    }
+    return result
 }
 
 //  Exercise 4 Functions
