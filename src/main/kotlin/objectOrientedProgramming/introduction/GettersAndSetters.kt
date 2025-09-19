@@ -1,7 +1,7 @@
 package objectOrientedProgramming.introduction
 
 fun main() {
-    val car = newCar()
+    val car = NewCar()
     println("Car name is - '${car.name}'")
     println("Car speed is - '${car.speed}'")
 
@@ -12,7 +12,7 @@ fun main() {
     println("Now car speed is - ${car.speed}")
 }
 
-class newCar {
+class NewCar {
     var name = ""
     var speed: Int = 59
         get() = field

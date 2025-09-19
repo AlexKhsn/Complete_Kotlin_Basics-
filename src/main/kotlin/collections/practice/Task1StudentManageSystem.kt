@@ -161,7 +161,6 @@ fun main() {
     // Вывод инфо о студенте
 
     try {
-
     } catch (e: Exception) {
         println("Ошибка: ${e.localizedMessage}")
         e.printStackTrace()
@@ -211,4 +210,3 @@ fun main() {
     println("$attendanceList содержит ${attendanceList.size} имени")
     println("$studentsEmails содержит ${studentsEmails.size} пары")
 }
-

@@ -1,6 +1,5 @@
 package userInput
 
-
 fun main() {
     println("Введи хуйню: ")
 
@@ -15,12 +14,11 @@ fun main() {
 //    // будет null, если input == 111
 //    println("Input was: ${input?.length}")
 
-
 //    // будет null, если input == 111
 //    println("Input was: ${input?.length ?: "Empty input"}")
 
 //    // будет null, если input == 111
-    if(input != null) {
+    if (input != null) {
         println("Input was: ${input.length}")
     } else {
         println("Empty input")

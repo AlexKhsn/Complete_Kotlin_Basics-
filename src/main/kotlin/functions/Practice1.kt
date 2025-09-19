@@ -112,7 +112,7 @@ fun main() {
 //                val result = sublist.sum()
 //                println(result)
 
-                val a   = intArrayOf(1, 2, 3)
+                val a = intArrayOf(1, 2, 3)
 
                 println(sum(*numbers.subList(0, 3).toIntArray()))
             }

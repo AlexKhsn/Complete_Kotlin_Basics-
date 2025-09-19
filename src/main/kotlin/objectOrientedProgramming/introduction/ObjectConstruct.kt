@@ -1,8 +1,10 @@
 package objectOrientedProgramming.introduction
 
+import objectOrientedProgramming.introduction.DatabaseAccess.disconnect
+
 fun main() {
     DatabaseAccess.connected = true
-    if (DatabaseAccess.connected) DatabaseAccess.disconnect()
+    if (DatabaseAccess.connected) disconnect()
     else DatabaseAccess.connect()
 
     println("Database is connected: ${DatabaseAccess.connected}")
