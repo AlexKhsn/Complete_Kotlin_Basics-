@@ -107,6 +107,13 @@ fun main() {
             }
             4 -> {
                 processedCount++
+
+//                val sublist = numbers.subList(0, 3)
+//                val result = sublist.sum()
+//                println(result)
+
+                val a   = intArrayOf(1, 2, 3)
+
                 println(sum(*numbers.subList(0, 3).toIntArray()))
             }
             5 -> {

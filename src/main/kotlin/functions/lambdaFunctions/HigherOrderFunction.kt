@@ -11,7 +11,7 @@ fun main() {
     sayHello(names) { name: String -> println("#3 Hello, $name!") }
 }
 
-fun sayHello(names: MutableList<String>, lambdaFunction: (String) -> Unit) {
+fun sayHello(names: List<String>, lambdaFunction: (String) -> Unit) {
     for (name in names) {
         lambdaFunction(name)
     }

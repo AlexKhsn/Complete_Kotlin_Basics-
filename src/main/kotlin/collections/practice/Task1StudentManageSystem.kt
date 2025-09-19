@@ -161,15 +161,7 @@ fun main() {
     // Вывод инфо о студенте
 
     try {
-        if (searchName in studentsGrades.keys) {
-            println("Информация о студенте: '$searchName'")
-            println("Есть в списке записанных: ${enrolledStudents.contains(searchName)}'")
-            println("Оценка: ${studentsGrades[searchName]}")
-            println("Email: ${studentsEmails[searchName]}")
-            println("Кол-во посещений: ${attendanceList.filter{it == searchName}.size}")
-        } else {
-            throw Exception("Студент не найден!")
-        }
+
     } catch (e: Exception) {
         println("Ошибка: ${e.localizedMessage}")
         e.printStackTrace()
@@ -219,3 +211,4 @@ fun main() {
     println("$attendanceList содержит ${attendanceList.size} имени")
     println("$studentsEmails содержит ${studentsEmails.size} пары")
 }
+

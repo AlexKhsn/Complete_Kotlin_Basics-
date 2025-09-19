@@ -19,7 +19,8 @@ fun main() {
             9 -> "September"
             10 -> "October"
             11 -> "November"
-            else -> "December"
+            12 -> "December"
+            else -> throw IllegalArgumentException("Invalid month number")
         }
 
         println("Month #$i is $month")
