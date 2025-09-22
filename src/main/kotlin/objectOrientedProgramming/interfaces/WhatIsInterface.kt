@@ -11,13 +11,15 @@ interface Oven {
     val temperature: Int
 
     fun turnOn()
+
     fun turnOff()
+
     fun cook(temp: Int) {
         println("Cooking at $temp degrees")
     }
 }
 
-class Bosch: Oven {
+class Bosch : Oven {
     override val temperature = 180
 
     override fun turnOn() {
@@ -29,6 +31,6 @@ class Bosch: Oven {
     }
 }
 
-fun getOven() : Oven {
+fun getOven(): Oven {
     return Bosch()
 }

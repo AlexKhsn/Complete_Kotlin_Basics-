@@ -1,6 +1,6 @@
 package objectOrientedProgramming.interfaces.practice.restaurant
 
-class FancyRestaurant: Restaurant {
+class FancyRestaurant : Restaurant {
     override fun provideFood() {
         println("This is the most delicious food")
     }
