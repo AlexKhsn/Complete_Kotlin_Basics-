@@ -1,0 +1,7 @@
+A class bird has a color and flight speed. It has a fly method
+that prints out some flight information.
+
+A parakeet is a bird that has a different color and speed. Its fly
+method prints out the flight information, but also that of the average bird.
+
+Create a parakeet object and print out its flight information.

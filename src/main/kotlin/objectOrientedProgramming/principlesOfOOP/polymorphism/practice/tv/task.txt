@@ -1,0 +1,7 @@
+A TV can provide programs from a certain channel.
+
+It can also provide channel and subtitle information.
+
+It can also provide programs that were shown at a certain time of the day.
+
+Implement this in a program and call the various methods.

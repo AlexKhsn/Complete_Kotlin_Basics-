@@ -1,0 +1,6 @@
+A class EncryptionLock has a privateKey, which is private.
+A method unlock takes a publicKey and applies a private function to it.
+The private function is a math formula. If the result matches privateKey,
+it returns true, otherwise it returns false.
+
+Implement this in a program and try multiply keys to unlock the lock.

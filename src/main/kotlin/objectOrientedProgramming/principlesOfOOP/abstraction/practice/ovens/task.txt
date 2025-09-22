@@ -1,0 +1,10 @@
+A default oven has an average cooking speed,
+top temperature and function for cooking.
+
+A Bosch oven has a higher cooking temperature.
+
+A Roaster oven does not cook but roasts.
+The speed and temperature are average.
+
+Implement this in a program and print
+out the various information for the objects.

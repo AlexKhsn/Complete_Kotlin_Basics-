@@ -1,0 +1,6 @@
+A restaurant will always provide food and provide a bill.
+You want to go to your local restaurant and ask them for some food,
+and then for the bill.
+On another day, you go to another, fancier restaurant, order some
+food then ask for the bill.
+Implement this in a program.

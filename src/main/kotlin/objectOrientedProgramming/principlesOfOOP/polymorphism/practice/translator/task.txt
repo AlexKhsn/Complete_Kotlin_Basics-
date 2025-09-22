@@ -1,0 +1,5 @@
+A Translator can provide a hello message in english by default,
+but also in two different languages. If the language is not known,
+a default english message is provided.
+Implement the Translator class and call and object from it with
+different language parameters.

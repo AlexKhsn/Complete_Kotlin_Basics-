@@ -1,0 +1,6 @@
+Create an interface Car that guarantees functionality for drive
+and park, as well as a speed.
+Create a class BMW that implements the Car interface.
+Create a CarFactory that provides cars.
+Create a variable myCar and ask the CarFactory for a car. Call the
+various methods on your car, without knowing what type it is.

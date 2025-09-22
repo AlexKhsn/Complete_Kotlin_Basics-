@@ -1,0 +1,5 @@
+A class Dog can run, bark and play.
+A Pug can run and play but cannot bark.
+A BassetHound can bark and play but cannot run.
+An old Chihuahua can bark and run but cannot play.
+Implement this in a program and print out what each dog breed can and cannot do.

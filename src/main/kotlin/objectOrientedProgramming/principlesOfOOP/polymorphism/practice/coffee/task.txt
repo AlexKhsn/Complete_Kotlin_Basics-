@@ -1,0 +1,10 @@
+Coffee will wake you up but also quench your thirst.
+There are different types of coffee, Arabica and Robusta.
+But since you don’t really care about that, you just go
+to the coffee shop and ask for a coffee, which they
+will happily provide.
+
+You will then drink the coffee to both wake you up
+and quench your thirst.
+
+Implement this in a program.
