@@ -6,6 +6,8 @@ abstract class CoffeeShop(val americanoPrice: Double, val cappuccinoPrice: Doubl
     var latteCount = 0
 
     abstract fun makeAmericano()
+
     abstract fun makeCappuccino()
+
     abstract fun makeLatte()
 }

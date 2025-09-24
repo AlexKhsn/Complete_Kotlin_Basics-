@@ -1,0 +1,6 @@
+Create a data class that stores customer information such as name,
+email and products bought. Create 3 customers and add them to a list.
+One of the customers has changed their email. You want to keep the
+old customer information but also add the new information to the list.
+Create a function that sends an email to each customer (prints
+a message in console)

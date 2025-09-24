@@ -1,0 +1,4 @@
+Have the user introduce 10 numbers.
+
+Print a list that contains only odd numbers
+and make sure to exclude the numbers 3 and 13.

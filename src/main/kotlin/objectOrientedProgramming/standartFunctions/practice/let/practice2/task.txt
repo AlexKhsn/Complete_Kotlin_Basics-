@@ -1,0 +1,5 @@
+Read 3 animals from the console and add them
+to a list. If you read an empty string, add a
+null to the list.
+For each animal in the list, print a
+"feeding the animal" message.

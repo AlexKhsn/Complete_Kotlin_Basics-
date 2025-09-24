@@ -1,0 +1,4 @@
+A restaurant has a standard dish, today's special,
+and can print out the menu.
+Create a restaurant object and update its information,
+then print out the menu

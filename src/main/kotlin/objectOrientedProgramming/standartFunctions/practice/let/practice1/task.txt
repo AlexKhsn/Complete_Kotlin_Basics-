@@ -1,0 +1,2 @@
+Read a text from the console. If it's not null,
+convert it to an Int, double it and print it to the console

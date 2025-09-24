@@ -1,0 +1,6 @@
+A lock object needs a key object to unlock.
+After creating a key, we must define the key secret
+code and call the 'carve' function.
+Implement the lock object, then call the unlock
+function with a disposable key (no need to store the key
+in variable)

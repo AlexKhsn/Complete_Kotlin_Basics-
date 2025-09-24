@@ -1,0 +1,4 @@
+A person class has a first name, last name and age,
+and a function that prints out all the information.
+Create an object of the person class and update it's
+information and calls the print function

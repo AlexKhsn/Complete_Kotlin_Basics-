@@ -1,0 +1,3 @@
+Everytime a book is printed, company policy states that we
+must log the product and send an email.
+Implement this functionality in a program

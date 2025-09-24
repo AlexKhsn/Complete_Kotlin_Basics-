@@ -1,6 +1,6 @@
 package objectOrientedProgramming.interfaces.practice.coffeeShop
 
-class NewYorkCoffeeShop(americanoPrice: Double, cappuccinoPrice: Double, lattePrice: Double):
+class NewYorkCoffeeShop(americanoPrice: Double, cappuccinoPrice: Double, lattePrice: Double) :
     CoffeeShop(americanoPrice, cappuccinoPrice, lattePrice) {
     override fun makeAmericano() {
         americanoCount++
@@ -16,5 +16,4 @@ class NewYorkCoffeeShop(americanoPrice: Double, cappuccinoPrice: Double, lattePr
         latteCount++
         println("Thanks for order Latte in New York coffee shop")
     }
-
 }
