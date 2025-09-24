@@ -4,7 +4,6 @@ class PremiumSavingsAccount(
     override val accountNumber: Long,
     override val ownerName: String,
     override var balance: Double,
-    override val interestRate: Double,
     val minimumBalance: Double,
 ) : SavingsAccount(accountNumber, ownerName, balance, 7.0) {
     override fun withdraw(amount: Double): Boolean {
