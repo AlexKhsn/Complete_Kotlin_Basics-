@@ -1,5 +1,12 @@
 package generics.practice.shop
 
+import generics.practice.shop.intrfs.Saleable
+import generics.practice.shop.intrfs.Tradable
+import generics.practice.shop.products.Books
+import generics.practice.shop.products.Clothes
+import generics.practice.shop.products.Electronics
+import generics.practice.shop.products.Product
+
 fun main() {
     val customer1 = Customer(1, "Alex", "Alex@alex.com")
     val customer2 = Customer(1, "Alex", "Alex@alex.com")
@@ -14,8 +21,9 @@ fun main() {
     product3.wash()
 }
 
-fun applySaleToAll(products: List<Saleable>) {
-    products.forEach { println(it.saleDiscount()) }
+fun applySaleToAll(products: List<Product>) {
+    val saleables = products.filter { it is Saleable } as List<Saleable>
+    saleables.forEach { println(it.saleDiscount()) }
 }
 
 fun applyTradeInToAll(products: List<Tradable>) {

@@ -1,4 +1,7 @@
-package generics.practice.shop
+package generics.practice.shop.products
+
+import generics.practice.shop.intrfs.Programmable
+import generics.practice.shop.intrfs.Saleable
 
 class Clothes(
     id: Int,

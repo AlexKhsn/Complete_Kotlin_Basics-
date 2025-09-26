@@ -1,4 +1,4 @@
-package generics.practice.shop
+package generics.practice.shop.products
 
 abstract class Product(
     val id: Int,

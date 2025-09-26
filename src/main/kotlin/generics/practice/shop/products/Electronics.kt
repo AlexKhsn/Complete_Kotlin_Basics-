@@ -1,17 +1,14 @@
-package generics.practice.shop
+package generics.practice.shop.products
+
+import generics.practice.shop.intrfs.Seasonable
+import generics.practice.shop.intrfs.Tradable
 
 class Electronics(
     id: Int,
     name: String,
     price: Double,
     val warrantyMonths: Int,
-) : Product(
-        id,
-        name,
-        price,
-    ),
-    Seasonable,
-    Tradable {
+) : Product(id, name, price), Seasonable, Tradable {
     fun repair() {
         println("Товар $name отремонтирован!")
     }

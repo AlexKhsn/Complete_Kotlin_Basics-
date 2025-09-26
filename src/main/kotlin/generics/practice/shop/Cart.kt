@@ -1,5 +1,7 @@
 package generics.practice.shop
 
+import generics.practice.shop.products.Product
+
 class Cart<T : Product> {
     val items = mutableListOf<T>()
 

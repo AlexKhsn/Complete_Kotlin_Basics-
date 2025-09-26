@@ -1,4 +1,7 @@
-package generics.practice.shop
+package generics.practice.shop.products
+
+import generics.practice.shop.intrfs.BatchDiscountable
+import generics.practice.shop.intrfs.Studentable
 
 class Books(
     id: Int,
@@ -10,13 +13,13 @@ class Books(
         name,
         price,
     ),
-    Complectable,
+    BatchDiscountable,
     Studentable {
     fun read() {
         println("Читаем книгу $name")
     }
 
-    override fun complectDiscount() {
+    override fun batchDiscount() {
         println("Скидка на комплект")
     }
 

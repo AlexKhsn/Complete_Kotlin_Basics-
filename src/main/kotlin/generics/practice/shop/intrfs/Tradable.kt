@@ -1,4 +1,4 @@
-package generics.practice.shop
+package generics.practice.shop.intrfs
 
 interface Tradable {
     fun tradeIn()
