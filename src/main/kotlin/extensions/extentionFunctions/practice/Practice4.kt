@@ -4,7 +4,6 @@ fun main() {
     Double.className()
 }
 
-
 fun Double.Companion.className() {
     println("It's a Double class")
 }

@@ -1,6 +1,6 @@
-package generics.practice.practice3
+package generics.practice.huinya.practice3
 
-class Case<T, E>(var item: T, var item2: E): Storage<T> {
+class Case<T, E>(var item: T, var item2: E) : Storage<T> {
     override fun get(): T {
         return item
     }
@@ -13,7 +13,7 @@ class Case<T, E>(var item: T, var item2: E): Storage<T> {
         this.item = item
     }
 
-    override fun toString() : String {
+    override fun toString(): String {
         return "Case(item=$item, item2=$item2"
     }
 }

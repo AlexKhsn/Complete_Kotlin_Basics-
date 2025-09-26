@@ -1,20 +1,21 @@
-package generics.practice
+package generics.practice.huinya
 
 fun main() {
     val type1 = Type<Float>()
     type1.message(23.32F)
     val type2 = Type<HashMap<String, Int>>()
-    type2.message(hashMapOf(
-        "alex" to 23,
-        "sdf" to 23,
-        "sfg" to 35
-    ))
+    type2.message(
+        hashMapOf(
+            "alex" to 23,
+            "sdf" to 23,
+            "sfg" to 35,
+        ),
+    )
 }
-
 
 class Type<T> {
     fun message(item: T) {
-        println("The item converted to a string is: '${item.toString()}'")
+        println("The item converted to a string is: '$item'")
     }
 }
 /**

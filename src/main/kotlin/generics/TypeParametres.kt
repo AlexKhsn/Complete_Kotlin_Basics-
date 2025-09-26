@@ -12,19 +12,19 @@ abstract class Fruit {
     abstract fun peel()
 }
 
-class Apple: Fruit() {
+class Apple : Fruit() {
     override fun peel() {
         println("Peeling the apple")
     }
 }
 
-class Banana: Fruit() {
+class Banana : Fruit() {
     override fun peel() {
         println("Peeling the banana")
     }
 }
 
-class Chef<T: Fruit> {
+class Chef<T : Fruit> {
     fun cook(item: T) {
         item.peel()
     }

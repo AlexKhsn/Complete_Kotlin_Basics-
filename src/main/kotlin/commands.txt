@@ -8,3 +8,10 @@ Cmd + Option + ← / → — аналог Ctrl + Alt + стрелки
 Cmd + Shift + Backspace — последнее место редактирования
 Command + Left Click - провалиться в имплементацию
 Command + Opt + O - Оптимизация импортов
+
+
+
+Команды клода
+
+cd - change dir
+ls - показать что внутри текущей директории

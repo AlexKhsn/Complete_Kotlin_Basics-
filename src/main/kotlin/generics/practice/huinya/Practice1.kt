@@ -1,4 +1,4 @@
-package generics.practice
+package generics.practice.huinya
 
 fun main() {
     val info = Info<String>()
@@ -9,7 +9,6 @@ fun main() {
 
     val info3 = Info<MutableList<Int>>()
     info3.getLength(mutableListOf(2, 4, 23, 43, 15))
-
 }
 
 class Info<T> {

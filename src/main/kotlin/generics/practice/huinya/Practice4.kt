@@ -1,4 +1,4 @@
-package generics.practice
+package generics.practice.huinya
 
 fun main() {
     val readStrings = Read()

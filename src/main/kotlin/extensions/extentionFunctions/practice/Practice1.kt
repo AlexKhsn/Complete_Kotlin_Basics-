@@ -6,14 +6,14 @@ fun main() {
     println(2.4F.getCustomName())
 }
 
-fun String.getCustomName() : String {
+fun String.getCustomName(): String {
     return "A string of characters"
 }
 
-fun Int.getCustomName() : String {
+fun Int.getCustomName(): String {
     return "A integer number"
 }
 
-fun Float.getCustomName() : String {
+fun Float.getCustomName(): String {
     return "Floating point number"
 }

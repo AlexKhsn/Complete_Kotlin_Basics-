@@ -19,9 +19,7 @@ class Box<T> {
     }
 }
 
-class Car {
-
-}
+class Car
 
 class NewBox<T, U> {
     fun display(item1: T, item2: U) {

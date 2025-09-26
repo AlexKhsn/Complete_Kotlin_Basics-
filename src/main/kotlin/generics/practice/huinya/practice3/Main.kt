@@ -1,4 +1,4 @@
-package generics.practice.practice3
+package generics.practice.huinya.practice3
 
 fun main() {
     val money = Money(32423842374682734)

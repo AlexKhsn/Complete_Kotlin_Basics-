@@ -5,8 +5,7 @@ fun main() {
     println(names.howMany())
 }
 
-
-fun MutableList<Int>.howMany() : String {
+fun MutableList<Int>.howMany(): String {
     return "This list contains $size elements"
 }
 /**
